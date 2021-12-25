@@ -22,6 +22,7 @@ For usage details please see the code snippet in the cmd folder.
 package resample
 
 /*
+#cgo pkg-config: soxr
 #cgo LDFLAGS: -lsoxr
 
 #include <stdlib.h>
